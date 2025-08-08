@@ -202,7 +202,7 @@ local function checkBloodMoon()
     return false
 end
 
-local ts = 1689
+local ts = 1688
 local isOld = game.PlaceVersion == ts
 
 local lastHopAttempt = 0
