@@ -218,7 +218,7 @@ local function sh()
     local hs = game:GetService("HttpService")
     local tp = game:GetService("TeleportService")
     local res = req({
-        Url = "https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true",
+        Url = "https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Desc&limit=250&excludeFullGames=true",
         Method = "GET"
     })
 
